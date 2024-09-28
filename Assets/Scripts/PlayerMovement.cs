@@ -6,6 +6,13 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     public float rotationSpeed;
+
+    void Start()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    
     void Update()
     {
         float mouseX = Input.GetAxis("Mouse X"); //horizontal axis
