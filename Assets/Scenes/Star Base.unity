@@ -16076,6 +16076,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1166916739}
+    - targetCorrespondingSourceObject: {fileID: 100066, guid: 860793eb3324391468f1c120a75ec049,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1166916741}
   m_SourcePrefab: {fileID: 100100000, guid: 860793eb3324391468f1c120a75ec049, type: 3}
 --- !u!1 &736172549
 GameObject:
@@ -43240,6 +43244,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 3805598574243055497, guid: 452e2683e1a9d0f48a11948e6e380774, type: 3}
   shootPoint: {fileID: 1459082216}
+--- !u!114 &1166916741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166916735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 2202cba4b259a894c87fa70a2cdd670c,
+    type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!43 &1190970497
 Mesh:
   m_ObjectHideFlags: 0
