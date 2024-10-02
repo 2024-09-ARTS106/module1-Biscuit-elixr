@@ -9,10 +9,10 @@ public class PlayerMovement : MonoBehaviour
     public float rotationSpeed;
 
 
-    private Vector2 movementValue;
-    private float lookValue;
+    //private Vector2 movementValue;
+    //private float lookValue;
 
-    private void Awake()
+    /*private void Awake()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -26,23 +26,23 @@ public class PlayerMovement : MonoBehaviour
     public void OnLook(InputValue value)
     {
         lookValue = value.Get<Vector2>().x * rotationSpeed;
-    }
+    }*/
 
-    /*void Start()
+    void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-    }*/
+    }
 
     void Update()
     {
 
 
-        transform.Translate(movementValue.x * Time.deltaTime, 0, movementValue.y * Time.deltaTime);
+        //transform.Translate(movementValue.x * Time.deltaTime, 0, movementValue.y * Time.deltaTime);
 
-        transform.Rotate(0, lookValue * Time.deltaTime, 0);
+        //transform.Rotate(0, lookValue * Time.deltaTime, 0);
 
-        /*float mouseX = Input.GetAxis("Mouse X"); //horizontal axis
+        float mouseX = Input.GetAxis("Mouse X"); //horizontal axis
         transform.Rotate(0, mouseX * rotationSpeed * Time.deltaTime, 0); //rotating along the Mouse X axis 
 
         //Move forward
@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             transform.Translate(speed * Time.deltaTime, 0, 0);
-        }*/
+        }
 
     }
 }
