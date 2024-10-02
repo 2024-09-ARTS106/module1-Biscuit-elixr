@@ -19,8 +19,8 @@ public class FirstScript : MonoBehaviour
     void Update()
     {
         //print(speed);
-        //print("Frame #{0}: Update at Time #{1}", frameNum, Time.time);
-        print("Frame " + frameNum + " Update at Time: " + Time.time);
+        Debug.LogFormat("Frame #{0}: Update at Time #{1}", frameNum, Time.time);
+        //print("Frame " + frameNum + " Update at Time: " + Time.time);
         frameNum = frameNum++;
     }
 
