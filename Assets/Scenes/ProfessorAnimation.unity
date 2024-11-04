@@ -388,8 +388,9 @@ GameObject:
   - component: {fileID: 1123357542}
   - component: {fileID: 1123357541}
   - component: {fileID: 1123357540}
+  - component: {fileID: 1123357543}
   m_Layer: 0
-  m_Name: professor_walk_cycle_no_hat_9
+  m_Name: Professor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +406,7 @@ Animator:
   m_GameObject: {fileID: 1123357539}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 63f950ba8b985d34284fedb9124e645e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8be1698a2c008554888a5eaa209a2dea, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -483,6 +484,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1123357543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123357539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdc3f3860813c414da0c11766aa5a4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
