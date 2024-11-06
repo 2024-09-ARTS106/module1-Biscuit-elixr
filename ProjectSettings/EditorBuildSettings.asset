@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/Star Base.unity
-    guid: 6b2e47e01b4056a409fe3008ff8bc452
   - enabled: 1
     path: Assets/Scenes/BallAnimation.unity
     guid: a437455b842d3e849b767516c95e3ab6
