@@ -5,10 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/BallAnimation.unity
-    guid: a437455b842d3e849b767516c95e3ab6
   - enabled: 1
-    path: Assets/Scenes/ProfessorAnimation.unity
-    guid: ca8813d373e11904fa883da49daa8aa9
+    path: Assets/Scenes/SNAPS.unity
+    guid: 1531dde52508f3b488ff3458e24b6b65
   m_configObjects: {}
