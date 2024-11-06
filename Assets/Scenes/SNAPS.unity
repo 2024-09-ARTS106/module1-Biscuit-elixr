@@ -519,7 +519,9 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: -7215907505877939911, guid: 656de4c1f542c8e469bd16d1c5e71314, type: 2}
+    value: {fileID: 2066499472}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &27808116
@@ -10266,6 +10268,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4982123706189972, guid: 17879023d70151548bbfb6fc34751623, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0056678373
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982123706189972, guid: 17879023d70151548bbfb6fc34751623, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0021059618
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17879023d70151548bbfb6fc34751623,
         type: 3}
       propertyPath: m_Name
@@ -11204,11 +11214,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.794
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.91993
+      value: -36.505
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11237,6 +11247,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Depth
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_ClearFlags
